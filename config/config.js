@@ -5,7 +5,8 @@
 // // 加载配置文件
 
 // 获取node运行环境
-let env=process.env.NODE_ENV;
+// let env=process.env.NODE_ENV;
+let env=process.env.NODE_PROD;
 // console.log('env==>',env);
 
 // 根据node运行环境加载配置文件

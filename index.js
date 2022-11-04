@@ -41,6 +41,7 @@ app.use(bodyParser.json())
 //设置静态目录
 // app.use( express.static(path.resolve(__basename, 'public')));
 app.use('/public',express.static("public"));//将静态资源托管
+app.use('/houtai',express.static("dist"));//将静态资源托管
 
 //加载中间件层
 middleWare(app);
