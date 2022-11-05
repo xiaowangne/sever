@@ -7,9 +7,8 @@
 let serverOptions = {
 	//主机
 	host: 'http://127.0.0.1',
-
 	// 端口
-	port: 9000,
+	port: 8080,
 	//请求体大小限制
 	limitBody: '800kb'
 }
@@ -22,7 +21,7 @@ exports.mysqlOptions = {
 	// 用户名
 	user: 'root',
 	// 密码
-	password: 'Xiaowang123',
+	password: 'Xiaowang123!',
 	// 连接主机
 	host: 'localhost',
 	// 连接数据库类型
